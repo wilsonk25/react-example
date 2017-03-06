@@ -1,0 +1,12 @@
+.welcome {
+  font-weight: bold;
+}
+
+.welcome--green {
+  composes: welcome;
+  color: rgb(25,200,25);
+}
+
+.welcomeContainer {
+  margin: 1em auto;
+}
